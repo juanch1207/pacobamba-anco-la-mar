@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="peruano.ico" type="image/x-icon">
+    <title>Pacobamba</title>
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+            <marquee behavior="alternate" direction="left">
+                <legend>Centro Poblado de Pacobamba</legend>
+            </marquee>
+            
+
+        </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="preferencias.html">Preferencias</a></li>
+                <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 style="font-size: 16px;">
+        Este centro poblado está ubicado dentro de el distrito de Anco, provincia de La Mar, en la región de Ayacucho.
+    </h2>
+    <hr>
+   <div class="centrado">
+    <iframe style="border: 1px solid #000;" width="560" height="315" src="https://www.youtube.com/embed/WFA9_saAZ1s?si=JOLlqo6_SCgswnUr&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   </div>
+
+<div class="centrado">
+    <hr noshade width="50%" size="4">
+</div>
+    <section class="centrado">
+        <div class="gallery">
+            <a href="assets/img/IMG_20240703_154709.jpg" target="_blank"><img src="assets/img/IMG_20240703_154709.jpg" alt="Pacobamba" width="600"></a>
+            <div class="desc">Naturaleza y paisajes</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/IMG_20240703_162204.jpg" target="_blank"><img src="assets/img/IMG_20240703_162204.jpg" alt="Pacobamba" width="600"></a>
+            <div class="desc">Árboles</div>
+        </div>
+        <div class="gallery">
+            <a href="assets/img/IMG_20240703_154657.jpg" target="_blank"><img src="assets/img/IMG_20240703_154657.jpg" alt="Pacobamba" width="600"> </a>   
+            <div class="desc">Montañas</div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p style="text-align: left; margin: 20px;">            
+            Blog: https://pacobamba-anco-la-mar.blogspot.com/2024/08/pacobamba.html <br>
+            Derechos reservados - Copyright&copy; 2024<br>
+        </p>
+    </footer>
+</body>
+</html>
